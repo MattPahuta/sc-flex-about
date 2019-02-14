@@ -114,25 +114,31 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
 }
 
 .flex-header {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    background-color: #555;
-    height: 20vh;
+    /* align-items: center; */
+    /* background-color: #555; */
     width: 100%;
+}
+
+header h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 3em;
 }
 
 .sub-heading {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #b3d4fc;
-    height: 35vh;
+    border-bottom: 1px solid #fff;
     width: 100%;
+}
+
+.sub-heading p {
+    font-size: 1.3em;
 }
 
 .flex-div-1, .flex-div-2, .flex-div-3 {
@@ -153,10 +159,8 @@ body {
 
 .flex-footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #555;
-    height: 15vh;
+    justify-content: flex-start;
+    border-top: 1px solid #fff;
     width: 100%;
 }
 
